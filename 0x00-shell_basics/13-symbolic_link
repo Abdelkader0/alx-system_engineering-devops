@@ -1,0 +1,2 @@
+#!/bin/bash
+readlink /bin/ls/__ls__

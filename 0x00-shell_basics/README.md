@@ -20,7 +20,7 @@
 18. 102-tree: creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 19. 103-commas: lists all the files and directories of the current directory, separated by commas (,), Directory names starts with /, Listed directories at the start and sorted the files in alphabitical order
 20. school.mgc: detect School data files that starts with string SCHOOL
-  . 0 SCHOOL School data
-  . :!mime School 
-  . file -C -m school.mgc
+  0 SCHOOL School data
+  :!mime School 
+  file -C -m school.mgc
 // ===================================================

@@ -1,5 +1,5 @@
-**Scripts Manual**
-=================================================
+##**Scripts Manual**
+// =================================================
 1. 0-current_working_directory: prints the current working directory and used the command pwd
 2. 1-listit: lists the files in the directory used ls for this script
 3. 2-bring_me_home: changes the directory to the user's home directory
@@ -20,7 +20,7 @@
 18. 102-tree: creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 19. 103-commas: lists all the files and directories of the current directory, separated by commas (,), Directory names starts with /, Listed directories at the start and sorted the files in alphabitical order
 20. school.mgc: detect School data files that starts with string SCHOOL
-  ## 0 SCHOOL School data
-  ## :!mime School
-  >> file -C -m school.mgc
-===================================================
+  . 0 SCHOOL School data
+  . :!mime School 
+  . file -C -m school.mgc
+// ===================================================

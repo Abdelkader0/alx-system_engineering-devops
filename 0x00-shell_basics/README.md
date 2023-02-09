@@ -81,6 +81,6 @@
 ###### lists all files and directories of the current directory separated by commas (,), directory names starting with /, and listed directories first, sorted in alphabetical order, using the ls -l command and the sort command.
 ##### school.mgc : detects School data files
 ###### - 0 string SCHOOL School data
-###### - :!mime School
+###### - !:mime School
 >>file -C -m school.mgc
 

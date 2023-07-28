@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Print the PID of the current process
-echo "$$"
+echo $$
